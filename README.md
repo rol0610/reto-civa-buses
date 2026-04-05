@@ -10,9 +10,10 @@
 ### Backend
 1. Crear base de datos:
    CREATE DATABASE buses_db;
-2. Ejecutar en carpeta proyecto api-bus:
+2. Ingresar a application.properties en back\api-bus\src\main\resources\application.properties y colocar user y pass de postgre local
+3. Ejecutar en carpeta proyecto api-bus:
    mvn spring-boot:run
-3. http://localhost:8080/bus    http://localhost:8080/bus/(numero)
+4. http://localhost:8080/bus    http://localhost:8080/bus/(numero)
 
 ### Frontend
 1. En carpeta frontend:
